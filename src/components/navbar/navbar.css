@@ -1,0 +1,24 @@
+.NavBar {
+    background-color: black;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
+}
+
+.NavBar .item {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    height: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+.NavBar .item:hover {
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
